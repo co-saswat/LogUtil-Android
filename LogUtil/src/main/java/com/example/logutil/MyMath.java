@@ -10,14 +10,14 @@ public class MyMath {
     public static int mul(int a, int b){
         return a*b;
     }
-    public static float div(int a, int b){
+    public static float div(float a, float b){
         if(b==0){
             throw new IllegalArgumentException("Divided by Zero Error");
         }else {
             return a/b;
         }
     }
-    public static float mod(int a, int b){
+    public static float mod(float a, float b){
         if(b==0){
             throw new IllegalArgumentException("Divided by Zero Error");
         }else {
